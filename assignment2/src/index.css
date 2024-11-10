@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::after,::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #110024DF;
+}
+h2{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+tr{
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 12px;
+  color: #1C2024;
+
+}
