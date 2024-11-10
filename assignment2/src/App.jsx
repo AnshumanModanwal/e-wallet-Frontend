@@ -8,12 +8,12 @@ function App() {
 
   const router = createBrowserRouter([
 
+    // {
+    //   path:"/",
+    //   element:<Auth/>
+    // },
     {
       path:"/",
-      element:<Auth/>
-    },
-    {
-      path:"dashboard",
       element:<Dashboard/>
     },
     {
