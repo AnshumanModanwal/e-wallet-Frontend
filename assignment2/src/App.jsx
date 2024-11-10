@@ -17,7 +17,7 @@ function App() {
       element:<Dashboard/>
     },
     {
-      path:"success",
+      path:"/success",
       element:<Success/>
     }
 
